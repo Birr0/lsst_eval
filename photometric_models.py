@@ -97,6 +97,7 @@ def HG1G2(phase, params):
                                       + params[2] * phi_2_ev
                                       + (1-params[1]-params[2]) * phi_3_ev)
 
+
 def HG12(phase, params):
     """
     Compute HG12 model phase curve for a given set
