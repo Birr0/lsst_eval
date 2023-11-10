@@ -30,7 +30,6 @@ def survey_years():
         else:
             year_dates.append(Time([one_year_timespan["min"].data  + (i)*catalog_delta, \
                         one_year_timespan["max"].data + (i)*catalog_delta], format="mjd"))
-    
     return year_dates
 
 def get_yearly_photometry():
